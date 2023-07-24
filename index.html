@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="backgroundI">
+    <p>YOUNES FORM</p>
+
+    <br />
+
+    <fieldset>
+      <legend>Personal Details</legend>
+
+      <br />
+
+      <label for="salutation">Salutation</label>
+      <select name="salutation" id="salutation">
+        <option value="none" selected disabled>--None--</option>
+        <option value="mr">Mr</option>
+        <option value="mrs">Mrs</option>
+      </select>
+
+      <br /><br /><br />
+
+      <label for="fname">First Name:</label>
+      <input autofocus="text" name="fname" id="fname" />
+
+      <br /><br /><br />
+
+      <label for="lname">Last Name:</label>
+      <input type="text" name="lname" id="lname" />
+
+      <br /><br /><br />
+
+      <label for="gender">Gender:</label>
+      <input type="radio" name="gender" id="gender" /> Male
+      <input type="radio" name="gender" id="gender" /> Female
+
+      <br /><br /><br />
+
+      <label autocomplete for="email">E-Mail: </label>
+      <input type="email" name="email" id="email" />
+
+      <br /><br /><br />
+
+      <form>
+        <label for="datemax">Date of birth:</label>
+        <input
+          type="date"
+          id="datemax"
+          name="datemax"
+          max="1979-12-31"
+        /><br /><br /><br />
+      </form>
+
+      <label for="adresse">Adresse:</label>
+      <br />
+      <textarea name="text" id="text" cols="30" rows="3"> </textarea>
+
+      <br /><br /><br /><br />
+
+      <button type="button">Submit</button>
+      <br />
+      <br />
+    </fieldset>
+  </body>
+</html>
